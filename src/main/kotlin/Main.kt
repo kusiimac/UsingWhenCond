@@ -5,7 +5,7 @@
  * 0-1959 -- Baby Boomer
  */
 fun main() {
-    println("Enter year if birth")
+    println("Enter year of birth")
     val year = readln().toInt()
     when (year) {
         in 1996..2015 -> print("Gen Z")
