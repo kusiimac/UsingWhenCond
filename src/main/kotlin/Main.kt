@@ -11,6 +11,7 @@ fun main() {
         in 1996..2015 -> print("Gen Z")
         in 1974..1995 -> print("Millennial")
         in 1960..1973 -> print("GenX")
-        else -> print("Baby Boomer")
+        in 0..1959 -> print("Baby Boomer")
+        else -> print("You're in the future")
     }
 }
